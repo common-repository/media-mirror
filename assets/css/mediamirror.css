@@ -1,0 +1,327 @@
+/**
+ * CASINO TABLE - Desktop
+*/
+
+@media only screen and (max-width: 760px)  {
+
+
+    .mm-casino-table-wrapper
+    {
+        background: #ffffff;
+        width: 100%;
+        padding: 10px;
+        -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .mm-casino-table {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        border: 0;
+        margin: 0;
+    }
+
+    .mm-casino-table thead {
+        display: none;
+    }
+
+    .mm-casino-table tbody {
+        display: block;
+    }
+
+    .mm-casino-table tr,
+    .mm-casino-table td {
+        border: 0;
+        margin: 0;
+    }
+
+    .mm-casino-table tr {
+        display: inline-block;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .mm-casino-table td {
+        width: 100%;
+        display: block;
+        white-space: normal;
+        overflow: hidden;
+    }
+
+    .mm-casino-table tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .mm-casino-table tbody tr:nth-child(odd) {
+        background-color: #fafafa;
+    }
+
+    .mm-casino-table__logo {
+        height: 150px;
+
+    }
+
+    .mm-casino-table__logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+
+    .mm-casino-table__logo a img {
+        display: inline-block;
+        margin: 0px auto;
+        max-width: 75%;
+        max-height: 60%;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff !important;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #528009;
+        background: #3cb5b1;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        padding: 15px;
+        width: 100%;
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+        margin: 15px 0 10px 0;
+    }
+
+    td.mm-casino-table__bonus {
+        font-size: 1.2em;
+    }
+
+    td.mm-casino-table__bonus strong {
+        font-size: 1.2em;
+    }
+
+    td.mm-casino-table__bonus .bonus-amount strong {
+        color: #3cb5b1;
+    } 
+
+    td.mm-casino-table__bonus .bonus-freespins strong {
+        color: #FC6D6F;
+    }
+
+    td.mm-casino-table__info {
+        color: #656565;
+        font-size: 0.9em;
+        height: 100px;
+        overflow-y: scroll;
+    }
+
+    .mm-casino-table__actions {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .mm-casino-table__actions img {
+        height: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 761px)  {
+
+    .mm-casino-table {
+        color: #333333;
+        border-radius: 4px;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .mm-casino-table thead {
+    	background: #333333;
+    }
+
+    .mm-casino-table thead th {
+        padding: 15px 0px;
+        color: #ffffff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+	.mm-casino-table tbody tr:nth-child(even) {
+        background-color: #fafafa;
+    }
+
+    .mm-casino-table tbody tr:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    .mm-casino-table th, .mm-casino-table td {
+        vertical-align: middle;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        min-width: 130px;
+        border: 0;
+        padding: 20px;
+    }
+
+    .mm-casino-table__rank {
+        width: 50px;
+        font-size: 1.5em;
+    }
+
+    .mm-casino-table__logo {
+        width: 20%;
+    }
+
+    .mm-casino-table__logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+    }
+
+    .mm-casino-table__logo a img {
+        display: inline-block;
+        margin: 0px auto;
+        max-width: 75%;
+        max-height: 60%;
+    }
+
+    td.mm-casino-table__bonus {
+    	font-size: 1.1em;
+    }
+
+    td.mm-casino-table__bonus strong {
+    	font-size: 1.1em;
+    }
+
+    td.mm-casino-table__bonus .bonus-amount strong {
+    	color: #3cb5b1;
+    } 
+
+    td.mm-casino-table__bonus .bonus-freespins strong {
+    	color: #FC6D6F;
+    }
+
+    td.mm-casino-table__info {
+        width: 35%;
+        color: #656565;
+    }
+
+    .mm-casino-table__actions {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .mm-casino-table__actions img {
+    	height: 26px;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff !important;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #528009;
+        background: #3cb5b1;
+        text-transform: uppercase;
+        margin-top: 10px;
+        text-decoration: none !important;
+        padding: 8px;
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn:hover {
+        text-shadow: 0px 1px 0px #528009;
+        background: #2ca5a1;
+    }
+
+    .mm-casino-table__actions .mm-casino-table__play-btn:hover {
+    	color: #ffffff;
+    }
+}
+
+
+/**
+ * Casino Box - Element
+*/
+.mm-casino-box {
+    text-align: center;
+    padding: 20px;
+    color: #323232;
+    background: #ffffff;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 2px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.mm-casino-box_logo a {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.mm-casino-box_logo a img {
+    display: inline-block;
+    margin: 0px auto;
+    max-width: 80%;
+    max-height: 70%;
+}
+
+.mm-casino-box__text {
+    height: 100px;
+}
+
+.mm-casino-box__text .bonus-freespins strong {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #FC6D6F;
+}
+
+.mm-casino-box__text .bonus-amount strong {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3cb5b1;
+}
+
+.mm-casino-box__rating {
+    padding: 5px 0px 10px 0px;
+}
+
+.mm-casino-box__rating img {
+    height: 25px;
+}
+
+.mm-casino-box__button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    color: #ffffff !important;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 0;
+    text-decoration: none !important;
+    text-shadow: 0px 1px 0px #528009;
+    background: #3cb5b1;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 10px 0 5px 0;
+}
